@@ -1,0 +1,23 @@
+{
+  "movies_parsed": 2000,
+  "detail_pages": 2000,
+  "category_pages": 10,
+  "category_card_total": 2000,
+  "html_pages": 2014,
+  "html_pages_with_baidu": 2014,
+  "jpg_files_in_zip_source": 0,
+  "window_movie_source_occurrences": 0,
+  "m3u8_sources": 20,
+  "category_counts": {
+    "category-01": 200,
+    "category-02": 200,
+    "category-03": 200,
+    "category-04": 200,
+    "category-05": 200,
+    "category-06": 200,
+    "category-07": 200,
+    "category-08": 200,
+    "category-09": 200,
+    "category-10": 200
+  }
+}

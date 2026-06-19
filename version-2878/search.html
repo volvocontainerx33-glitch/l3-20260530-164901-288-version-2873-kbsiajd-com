@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索 · 亚洲影视</title>
+  <meta name="description" content="搜索亚洲影视站内影片，支持按标题、简介、类别、标签和年份实时筛选。">
+  <meta name="keywords" content="亚洲影视, 免费电影, 高清电影, 热门剧集, 在线播放, 电影站, 静态网站">
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="assets/style.css">
+  
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html" aria-label="亚洲影视">
+      <span class="brand-mark">▶</span>
+      <span>亚洲影视</span>
+    </a>
+    <nav class="nav-links"><a href="index.html">首页</a><a href="category-guochan.html">国产电影</a><a href="category-rihan.html">日韩电影</a><a href="category-oumei.html">欧美电影</a><a href="category-qita.html">其他电影</a><a href="category-kehuan.html">科幻未来</a><a href="category-xuanyi.html">悬疑烧脑</a><a href="category-xiju.html">喜剧解压</a><a href="category-aiqing.html">爱情治愈</a><a href="category-dongzuo.html">动作冒险</a><a href="category-jiating.html">家庭成长</a><a href="search.html">搜索</a></nav>
+    <form class="searchbar" action="search.html" method="get">
+      <input name="q" type="search" placeholder="搜索电影、剧集、关键词…">
+      <button type="submit">⌕</button>
+    </form>
+    <button class="menu-btn" type="button" data-menu-btn>☰</button>
+  </div>
+  <div class="container mobile-menu" data-mobile-menu><a href="index.html">首页</a><a href="category-guochan.html">国产电影</a><a href="category-rihan.html">日韩电影</a><a href="category-oumei.html">欧美电影</a><a href="category-qita.html">其他电影</a><a href="category-kehuan.html">科幻未来</a><a href="category-xuanyi.html">悬疑烧脑</a><a href="category-xiju.html">喜剧解压</a><a href="category-aiqing.html">爱情治愈</a><a href="category-dongzuo.html">动作冒险</a><a href="category-jiating.html">家庭成长</a><a href="search.html">搜索</a></div>
+</header>
+<main class="container">
+  <section class="hero-mini">
+    <div class="card">
+      <div class="section-badge">站内搜索</div>
+      <h1 style="margin:10px 0 8px;font-size:clamp(28px,4vw,40px)">搜索影片与剧集</h1>
+      <p style="margin:0;color:var(--muted)">可按标题、简介、分类、地区、标签和年份检索，全站 150 部影片均已进入索引。</p>
+      <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <form class="searchbar" style="display:block;max-width:520px;width:100%" action="search.html" method="get">
+          <input data-search-input name="q" type="search" placeholder="输入关键词，例如：科幻、悬疑、爱情、2024">
+          <button type="submit">⌕</button>
+        </form>
+        <div class="small-note">当前结果：<strong data-search-count>0</strong> 部</div>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-title"><div><div class="section-badge">搜索结果</div><h2>匹配内容</h2><p>默认展示全部影片，输入关键词后实时筛选。</p></div></div>
+    <div class="search-results" data-search-results></div>
+    <div class="search-empty" data-search-empty style="display:none">没有找到匹配内容，请尝试其他关键词。</div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand" style="color:#fff"><span class="brand-mark">▶</span><span>亚洲影视</span></div>
+      <p>静态影视站点，围绕精选推荐、分类浏览、热门榜单和详情播放构建，方便快速检索和访问。</p>
+      <p class="small-note">本站已将重要内容直接写入 HTML，便于索引与收录。</p>
+    </div>
+    <div>
+      <h3>快捷入口</h3>
+      <p><a href="category-guochan.html">国产电影</a></p>
+      <p><a href="category-rihan.html">日韩电影</a></p>
+      <p><a href="category-kehuan.html">科幻未来</a></p>
+      <p><a href="search.html">站内搜索</a></p>
+    </div>
+    <div>
+      <h3>热门分类</h3>
+      <p><a href="category-xuanyi.html">悬疑烧脑</a></p>
+      <p><a href="category-xiju.html">喜剧解压</a></p>
+      <p><a href="category-aiqing.html">爱情治愈</a></p>
+      <p><a href="category-dongzuo.html">动作冒险</a></p>
+    </div>
+  </div>
+  <div class="container footer-bottom">© 2026 亚洲影视 · 纯静态内容页 · HLS 播放与分类浏览已启用</div>
+</footer>
+<button class="to-top" data-to-top title="返回顶部">↑</button>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="assets/site.js"></script>
+<script src="assets/catalog.js"></script>
+</body>
+</html>

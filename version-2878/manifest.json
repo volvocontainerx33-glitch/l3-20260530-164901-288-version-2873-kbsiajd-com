@@ -1,0 +1,8 @@
+{
+  "name": "亚洲影视",
+  "short_name": "亚洲影视",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#2563eb"
+}
